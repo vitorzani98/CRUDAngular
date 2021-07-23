@@ -24,6 +24,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductReadComponent } from './components/products/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     ProductCrudComponent,
     ForDirective,
     ProductCreateComponent,
+    ProductReadComponent,
     //ProductReadComponent
   ],
   imports: [
